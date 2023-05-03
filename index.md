@@ -1,32 +1,33 @@
 ---
-title: Home
+title: 코메이크 3.0 소개
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+<!-- <details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details> -->
 
-More specifically, the created site:
+# 코메이크 3.0 소개
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+[코메이크 3.0](https://comake.ai){:target="_blank"}은 2023년 5월 1일에 출시된 [법무법인 디라이트](https://dlightlaw.com){:target="_blank"}에서 지원하는 전자계약 플랫폼입니다. 코메이크 1.0과 2.0을 거치면서 겪은 시행착오들과, 고객들의 피드백을 반영하고자 하는 고민들, 또한 더 나은 서비스를 위한 많은 기술적인 노력들로 탄생했습니다. 
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## 달라진 점
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+| 항목   | COMAKE2.0 | COMAKE3.0|
+|-----|---|---|
+|계약문서 생성방식|웹 상의 **에디터**를 이용하여 생성|가지고 있는 계약 **문서를 업로드**하는 방식
+|계약 문서 포맷|HTML|**PDF**|
+|**서명란**의 위치| 계약서 하단 하단에 한 군데에 지정됨| 서명란의 위치와 개수를 **자유롭게 지정 가능**하며 서명뿐 아니라 **텍스트, 체크박스**와 같은 입력란도 문서의 적절한 곳에 설정 가능.|
+|나의 서명|나의 서명을 계약 설정시 미리 추가하여 상대 당사자에게 요청 불가|**나의 서명을 설정 단계에서 미리 추가**한 후 상대 계약 당사자에게 서명 요청 가능.
+|비회원에게 서명요청|미제공|각 계약별로 요청을 받은 각 사람에게만 노출되는 **고유의 서명 링크**를 이용하여 **비회원에게 서명 요청 가능**|
+|조직의 개념 도입|미제공|쉽게 조직을 생성하고, 구성원을 초대할 수 있음
+|결재 시스템|미제공|내부 구성원들 사이에 **결재라인**을 지정하여 계약문서의 결재를 받을 수 있는 **결재 시스템** 제공.|
 
-To get started with creating a site, just click "[use this template]"!
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
