@@ -1,7 +1,7 @@
 ---
 title: 대시보드(Dashboard)
 layout: default
-parent: 메뉴
+parent: 메뉴 설명
 nav_order: 1
 ---
 
