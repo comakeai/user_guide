@@ -20,41 +20,41 @@ nav_order: 4
 
 ## 1. 계약정보화면 
 이메일 또는 카카오톡을 받은 링크를 열람하면 먼저 링크를 받은 '이메일' 또는 '전화번호'를 입력하라는 입력창이 나타납니다.  
-![](../../assets/process/receive0.png)  
+![](/assets/process/receive0.png)  
 맞는 정보를 입력하면 계약정보를 확인할 수 있습니다. 
 
 계약 정보 화면은 다음의 정보로 구성됩니다.  
-![](../../assets/process/receive1.png)  
+![](/assets/process/receive1.png)  
 
 상태
 : 현재 계약의 상태를 나타냅니다. 상태는 **'저장됨', '결재중', '결재요청 취소', '결재 반려', '결재됨', '체결중', '서명요청 취소', '서명 반려', '체결됨'**입니다. '결재중'일때는 현재 누가 결재할 차례인지에 대한 정보가 추가로 표시되며, '체결중'일때는 현재 누가 서명할 차례인지에 대한 정보가 표시됩니다.  
-![](../../assets/process/receive2.png)  
+![](/assets/process/receive2.png)  
 
 액션 버튼
 : ***나의 차례인 경우***에 행할수 있는 액션에 대한 버튼이 표시됩니다. 결재중일때는 `문서열람`,`결재하기`, `결재반려` 버튼이 표시되고. 체결중일때는 `문서에 서명`버튼이 표시됩니다.  
-![](../../assets/process/receive3.png)  
-![](../../assets/process/receive4.png)  
+![](/assets/process/receive3.png)  
+![](/assets/process/receive4.png)  
 
 받는 사람
 : 링크를 수신한 사람의 이메일과, 이름이 표시됩니다.  
-![](../../assets/process/receive5.png)  
+![](/assets/process/receive5.png)  
 
 보낸 사람
 : 링크를 보낸 사람에 대한 정보가 표시됩니다. 보낸 사람이 속한 조직의 로고와 이름, 등록한 사용자 이미지와 이메일, 이름이 표시됩니다.  
-![](../../assets/process/receive6.png)  
+![](/assets/process/receive6.png)  
 
 생성자 액션버튼
 : ***내가 보낸 사람인 경우*** 계약 생성자가 수행할 수 있는 액션 버튼이 추가로 표시됩니다.  
-![](../../assets/process/receive7.png)  
+![](/assets/process/receive7.png)  
  `수정하기`버튼은 '결재중', '결재됨', '체결중', '체결됨' 상태일 때는 표시되지 않습니다.
- ![](../../assets/process/receive8.png)  
- ![](../../assets/process/receive9.png)  
+ ![](/assets/process/receive8.png)  
+ ![](/assets/process/receive9.png)  
 `결재 요청`버튼은 조직에 속해있을 때만 표시되며, 체결절차 전의 결재요청이 가능한 상태일 때만 표시됩니다. 
 `서명 요청`버튼은 서명 요청이 가능한 상태일때만 표시됩니다. 각 버튼을 클릭하면 [결재요청](/process/send.html#2-결재요청)과 [서명요청](/process/send.html#1-서명요청)을 진행할 수 있는 다이얼로그가 나타납니다. 
 
 상세타임라인
 : 계약이 진행되고있는 상세 과정이 각 스텝별로 표시됩니다.. 여기에 요청 메세지나 반려메세지도 함께 표시됩니다.  
-![](../../assets/process/receive10.png)  
+![](/assets/process/receive10.png)  
 
 {: .note}
 타임라인 - `내가 생성자인 경우`에는 생성부터 모든 과정의 타임라인이 표시되며, 생성자가 아닌 참여자인 경우에는 본인이 속한 단위의 타임라인만 나타납니다.  
@@ -74,15 +74,15 @@ nav_order: 4
 
 ### 결재하기
 [계약정보화면](#1-계약정보화면)에서 내 결제 차례인 경우에는 `결재하기` 버튼이 표시됩니다. 이 버튼를 하면 결재 비밀번호를 입력하는 다이얼로그가 나탑니다.  
-![](../../assets/process/receive11.png)  
+![](/assets/process/receive11.png)  
 맞는 결재 비밀번호를 입력하면 결재가 완료됩니다. 결재하기는 **로그인 상태**에서만 가능합니다. 
 
 ### 결재 비밀번호  
 결재는 미리 설정해놓은 개인의 ***'결재 비밀번호'***를 입력해서 이루어집니다.  
 결재 비밀번호 설정은 대시보드의 좌즉 사이드 메뉴 `management > 조직 > 결재 비밀번호 설정` 에서 할 수 있으며,  
-![](../../assets/process/receive11-2.png)  
+![](/assets/process/receive11-2.png)  
 결재요청을 받았으나 설정된 결재비밀번호가 없다면, 결재시 바로 설정할 수 있도록 결재 비밀번호 설정 페이지로 안내됩니다.  
-![](../../assets/process/receive12.png)  
+![](/assets/process/receive12.png)  
 
 ## 3. 서명요청 받기
 
@@ -95,7 +95,7 @@ nav_order: 4
 
 ### 서명하기 
 [계약정보화면](/receive.html#1-계약정보화면)에서 `서명하기`를 클릭하면 서명하기 페이지로 이동합니다. 좌측 계약서 네비게이션에서 나의 서명/입력란이 있는 페이지에는 입력란 개수 라벨이 표시됩니다.  
-![](../../assets/process/receive13.png)  
+![](/assets/process/receive13.png)  
 모든 ***필수*** 서명/입력란의 입력을 한 후에 `서명 제출`를 클릭해서 서명을 완료합니다.  
-![](../../assets/process/receive14.png)  
+![](/assets/process/receive14.png)  
 계약서 검토 후 서명 반려를 할 수도 있습니다. 
