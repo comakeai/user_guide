@@ -2,10 +2,10 @@ title: 코메이크3.0 이용자 가이드
 description: This is guide document for COMAKE3.0 users.
 theme: just-the-docs
 
-url: https://comakeai.github.io/user_doc
+url: https://comakeai.github.io/user_guide
 
 aux_links:
-  Template Repository: https://github.com/comakeai/user_doc
+  Template Repository: https://github.com/comakeai/user_guide
 
 callouts_level: quiet # or loud
 callouts:
