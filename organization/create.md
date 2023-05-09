@@ -20,38 +20,38 @@ nav_order: 1
 코메이크에서 ***한 사람***은 ***하나의 조직***에 속해 있을 수 있습니다. 속한 조직이 없을 경우에는  좌측 메뉴의 ***조직*** 하위에 ***조직 생성***메뉴가 표시됩니다.  
 (/user_guide/assets/org/create1.png)  
  조직을 생성하기 위해서는 **조직 생성** 페이지로 이동합니다. 필수 항목인 **조직의 이름**과 **산업군**만 입력하면 즉시 조직을 생성할 수 있습니다.  
- (/user_guide/assets/org/create2.png)  
+ ![](/user_guide/assets/org/create2.png)  
 
 ## 2. 조직 인증 
 조직을 생성한 이후에 조직은 ***비인증 상태***에 있습니다. 
  (/user_guide/assets/org/create3.png)
 비인증 상태에서도 모든 계약활동이 가능하지만, 서명 요청 받은 상대방에게 보이는 인증상태가 '비인증'으로 표시됩니다.  
- (/user_guide/assets/org/create4.png)  
+ ![](/user_guide/assets/org/create4.png)  
  **법인등기부등본**과 **사업자등록증**을 업로드하여 인증 신청을 받으면 좀 더 신뢰있는 계약 체결을 할 수 있습니다. `조직 > 프로필> 수정하기` 에서 인증 관련 파일을 **업로드**할 수 있습니다.  
 
-  (/user_guide/assets/org/create5.png)  
+  ![](/user_guide/assets/org/create5.png)  
   인증 신청을 하면 관리자가 확인 후 조직을 인증하여 드립니다. 관리자 확인 처리까지 다소 시간이 소요될 수 있습니다.  
 
 ## 3. 구성원 초대  
 좌측 메뉴에서 `management > 조직 > 구성원`으로 이동합니다.  
-(/user_guide/assets/org/create6.png)  
+![](/user_guide/assets/org/create6.png)  
 우측 상단에 `초대하기`를 클릭하면 초대 팝업이 나타납니다.  
-(/user_guide/assets/org/create7.png)  
+![](/user_guide/assets/org/create7.png)  
  구성원 초대는 코메이크 **가입자에게만** 보낼 수 있으므로 구성원으로 초대하고자하는 대상에게 먼저 코메이크 회원가입을 요청하세요. 상대방의 회원가입이 완료되었으면 텍스트입력창에 이름 또는 이메일로 검색할 때 목록에 자동으로 나타나게 됩니다.  
- (/user_guide/assets/org/create8.png)  
+![](/user_guide/assets/org/create8.png)  
  초대받는 이를 선택하여 초대하면, 초대장이 상대방의 이메일로 전송됩니다.  
-  (/user_guide/assets/org/create9.png)  
+![](/user_guide/assets/org/create9.png)  
 상대방이 이메일에서 초대를 수락하면, 조직의 구성원이 됩니다.  
- (/user_guide/assets/org/create9-1.png)  
-구성원 초대현황은 `management > 조직 > 구성원 > 초대현황` 에서 확인할 수 있습니다.
-  (/user_guide/assets/org/create10.png)
+![](/user_guide/assets/org/create9-1.png)  
+구성원 초대현황은 `management > 조직 > 구성원 > 초대현황` 에서 확인할 수 있습니다.  
+![](/user_guide/assets/org/create10.png)  
 
 ## 4. 구성원 정보 수정
 좌측 메뉴에서 `management > 조직 > 구성원`으로 이동합니다.
  정보를 수정하고자 하는 구성원의 액션 버튼을 열어서 `수정`을 선택하세요.  
-(/user_guide/assets/org/create12.png)  
+![](/user_guide/assets/org/create12.png)  
 구성원의 정보를 수정할 수 있는 팝업이 나타납니다.  
-(/user_guide/assets/org/create13.png)  
+![](/user_guide/assets/org/create13.png)  
 수정 항목은 다음과 같습니다. 
 
 부서
