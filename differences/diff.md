@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 코메이크 2.0 VS 코메이크 3.0
+title: 2.0 과 3.0 비교
 nav_order: 6
 permalink: /docs/differences
 ---
