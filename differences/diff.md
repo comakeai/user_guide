@@ -15,7 +15,7 @@ permalink: /docs/differences
 {:toc}
 </details>
 
-# 코메이크 3.0 소개
+# 2.0 과 3.0 비교
 
 [코메이크 3.0](https://comake.ai){:target="_blank"}은 2023년 5월 1일에 출시된 [법무법인 디라이트](https://dlightlaw.com){:target="_blank"}에서 지원하는 전자계약 플랫폼입니다. 코메이크 1.0과 2.0을 거치면서 겪은 시행착오, 고객들의 피드백을 반영하고자 하는 고민들, 또한 더 나은 서비스를 만들기 위한 기술적인 노력들로 탄생했습니다.
 
