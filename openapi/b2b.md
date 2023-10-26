@@ -53,12 +53,12 @@ url은 [https://comake.ai/contract/upload?token=${clientToken}&contractId=${cont
 
 ### 서명 요청 받는 이의 정보 저장 :
 서명요청을 보내기전에, 서명요청을 받을 서명자의 정보를 세팅합니다. Authorization Bearer의 토큰으로 해당 사용자의 clientToken을 사용합니다.
-(정확한 api 이용 방법은  [API 상세문서](https://comake.ai/api-doc){:target="_blank"} 의 contract contract/pre-signee-set 을 보세요.)
+(정확한 api 이용 방법은  [API 상세문서](https://comake.ai/api-doc){:target="_blank"} 의 contract 카테고리의 contract/pre-signee-set 을 보세요.)
 
 ### 서명요청 :
 서명 요청 받는 이의 정보를 저장했으면 이제 서명요청 할 수 있습니다. Authorization Bearer의 토큰으로 해당 사용자의 clientToken을 사용합니다. 
-(정확한 api 이용 방법은  [API 상세문서](https://comake.ai/api-doc){:target="_blank"} 의 contract contract/request-sign 을 보세요.)
+(정확한 api 이용 방법은  [API 상세문서](https://comake.ai/api-doc){:target="_blank"} 의 contract 카테고리의 contract/request-sign 을 보세요.)
 
 ### 서명 요청 취소:
 서명 요청을 보낸후 취소하는 API 를 젲공합니다.. Authorization Bearer의 토큰으로 해당 사용자의 clientToken을 사용합니다. 
-(정확한 api 이용 방법은  [API 상세문서](https://comake.ai/api-doc){:target="_blank"} 의 contract contract/cancel-sign 을 보세요.)
+(정확한 api 이용 방법은  [API 상세문서](https://comake.ai/api-doc){:target="_blank"} 의 contract 카테고리의 contract/cancel-sign 을 보세요.)
