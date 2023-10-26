@@ -19,7 +19,7 @@ permalink: /docs/openapi
 코메이크는 각 기업이 내부 시스템 안에서 전자계약시스템을 이용하실 수 있도록, OPEN API를 제공합니다. api의 사용 도메인은 https://comake.ai/api 입니다. 각 api 상세는 [https://comake.ai/api-doc](https://comake.ai/api-doc){:target="_blank"}에서 확인하실 수 있습니다.
 
 ## OPEN API 사용 방법
-###  API KEY와 SECRET을 발급
+###  API KEY와 SECRET을 발급 받음
 OPEN API를 사용하고자 하는 기업은 코메이크의 관리자에게 OPEN API 사용 승인 절차를 거친 후, 해당 기업 고유의 API KEY와 SECRET을 발급받습니다.
 
 ### 관리자 로그인 :
